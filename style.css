@@ -23,8 +23,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 50%;
-    height: 100vh;
+    width: 700px;
+    height: 70vh;
+    margin-top: 70px;
 }
 
 .instagram-phone{
@@ -68,7 +69,6 @@ body {
 
 .group:nth-child(2){
     margin-top: 5px;
-
 }
 
 .instagram-logo {
@@ -77,25 +77,25 @@ body {
 }
 
 .login {
-    background: rgb(243, 243, 243);
     display: flex;
     align-items: flex-start;
     font-size: 12px;
-    border: 1px solid rgb(160, 160, 160);
-    padding: 10px;
-    width: 80%;
     border-radius: 4px;
+     padding: 10px;
+    width: 80%;
+    border: 1px solid rgb(160, 160, 160);
+    background: rgb(243, 243, 243);
 }
 
 .instagram-login {
-    background-color: #0095f6;
-    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 8px;
     border-radius: 4px;
     width: 80%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+    background-color: #0095f6;
+    color: #ffffff;
 }
 
 .not-account {
@@ -162,7 +162,7 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: 35px;
+    margin-top: 150px;
 }
 
 .roda-pe-2{
@@ -194,15 +194,13 @@ body {
     .instagram-wrapper {
         width: 90%;
     }
+
 }
 
 @media (max-width: 650px) {
-    body {
-        background-color: #ffffff;
-    }
 
     .instagram-wrapper {
-        width: 90%;
+        width: 100%;
     }
 
     .instagram-phone {
@@ -216,5 +214,11 @@ body {
     .group {
         border: 1px solid transparent;
     }
+
+    .download{
+        flex-direction: column;
+        justify-items: center;
+    }
+
 }
 
